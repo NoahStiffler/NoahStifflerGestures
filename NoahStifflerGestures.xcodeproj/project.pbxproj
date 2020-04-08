@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EC894A7243E0FF40065E5E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC894A6243E0FF40065E5E7 /* AppDelegate.swift */; };
+		9EC894A9243E0FF40065E5E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC894A8243E0FF40065E5E7 /* SceneDelegate.swift */; };
+		9EC894AB243E0FF40065E5E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC894AA243E0FF40065E5E7 /* ViewController.swift */; };
+		9EC894AE243E0FF40065E5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC894AC243E0FF40065E5E7 /* Main.storyboard */; };
+		9EC894B0243E0FF50065E5E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC894AF243E0FF50065E5E7 /* Assets.xcassets */; };
+		9EC894B3243E0FF50065E5E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC894B1243E0FF50065E5E7 /* LaunchScreen.storyboard */; };
+		9EC894BE243E0FF50065E5E7 /* NoahStifflerGesturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC894BD243E0FF50065E5E7 /* NoahStifflerGesturesTests.swift */; };
+		9EC894C9243E0FF50065E5E7 /* NoahStifflerGesturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC894C8243E0FF50065E5E7 /* NoahStifflerGesturesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EC894BA243E0FF50065E5E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC8949B243E0FF40065E5E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EC894A2243E0FF40065E5E7;
+			remoteInfo = NoahStifflerGestures;
+		};
+		9EC894C5243E0FF50065E5E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC8949B243E0FF40065E5E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EC894A2243E0FF40065E5E7;
+			remoteInfo = NoahStifflerGestures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EC894A3243E0FF40065E5E7 /* NoahStifflerGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoahStifflerGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC894A6243E0FF40065E5E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EC894A8243E0FF40065E5E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9EC894AA243E0FF40065E5E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EC894AD243E0FF40065E5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EC894AF243E0FF50065E5E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EC894B2243E0FF50065E5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EC894B4243E0FF50065E5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC894B9243E0FF50065E5E7 /* NoahStifflerGesturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoahStifflerGesturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC894BD243E0FF50065E5E7 /* NoahStifflerGesturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoahStifflerGesturesTests.swift; sourceTree = "<group>"; };
+		9EC894BF243E0FF50065E5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC894C4243E0FF50065E5E7 /* NoahStifflerGesturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoahStifflerGesturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC894C8243E0FF50065E5E7 /* NoahStifflerGesturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoahStifflerGesturesUITests.swift; sourceTree = "<group>"; };
+		9EC894CA243E0FF50065E5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EC894A0243E0FF40065E5E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC894B6243E0FF50065E5E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC894C1243E0FF50065E5E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EC8949A243E0FF40065E5E7 = {
+			isa = PBXGroup;
+			children = (
+				9EC894A5243E0FF40065E5E7 /* NoahStifflerGestures */,
+				9EC894BC243E0FF50065E5E7 /* NoahStifflerGesturesTests */,
+				9EC894C7243E0FF50065E5E7 /* NoahStifflerGesturesUITests */,
+				9EC894A4243E0FF40065E5E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EC894A4243E0FF40065E5E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EC894A3243E0FF40065E5E7 /* NoahStifflerGestures.app */,
+				9EC894B9243E0FF50065E5E7 /* NoahStifflerGesturesTests.xctest */,
+				9EC894C4243E0FF50065E5E7 /* NoahStifflerGesturesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EC894A5243E0FF40065E5E7 /* NoahStifflerGestures */ = {
+			isa = PBXGroup;
+			children = (
+				9EC894A6243E0FF40065E5E7 /* AppDelegate.swift */,
+				9EC894A8243E0FF40065E5E7 /* SceneDelegate.swift */,
+				9EC894AA243E0FF40065E5E7 /* ViewController.swift */,
+				9EC894AC243E0FF40065E5E7 /* Main.storyboard */,
+				9EC894AF243E0FF50065E5E7 /* Assets.xcassets */,
+				9EC894B1243E0FF50065E5E7 /* LaunchScreen.storyboard */,
+				9EC894B4243E0FF50065E5E7 /* Info.plist */,
+			);
+			path = NoahStifflerGestures;
+			sourceTree = "<group>";
+		};
+		9EC894BC243E0FF50065E5E7 /* NoahStifflerGesturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EC894BD243E0FF50065E5E7 /* NoahStifflerGesturesTests.swift */,
+				9EC894BF243E0FF50065E5E7 /* Info.plist */,
+			);
+			path = NoahStifflerGesturesTests;
+			sourceTree = "<group>";
+		};
+		9EC894C7243E0FF50065E5E7 /* NoahStifflerGesturesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EC894C8243E0FF50065E5E7 /* NoahStifflerGesturesUITests.swift */,
+				9EC894CA243E0FF50065E5E7 /* Info.plist */,
+			);
+			path = NoahStifflerGesturesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EC894A2243E0FF40065E5E7 /* NoahStifflerGestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC894CD243E0FF50065E5E7 /* Build configuration list for PBXNativeTarget "NoahStifflerGestures" */;
+			buildPhases = (
+				9EC8949F243E0FF40065E5E7 /* Sources */,
+				9EC894A0243E0FF40065E5E7 /* Frameworks */,
+				9EC894A1243E0FF40065E5E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoahStifflerGestures;
+			productName = NoahStifflerGestures;
+			productReference = 9EC894A3243E0FF40065E5E7 /* NoahStifflerGestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EC894B8243E0FF50065E5E7 /* NoahStifflerGesturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC894D0243E0FF50065E5E7 /* Build configuration list for PBXNativeTarget "NoahStifflerGesturesTests" */;
+			buildPhases = (
+				9EC894B5243E0FF50065E5E7 /* Sources */,
+				9EC894B6243E0FF50065E5E7 /* Frameworks */,
+				9EC894B7243E0FF50065E5E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EC894BB243E0FF50065E5E7 /* PBXTargetDependency */,
+			);
+			name = NoahStifflerGesturesTests;
+			productName = NoahStifflerGesturesTests;
+			productReference = 9EC894B9243E0FF50065E5E7 /* NoahStifflerGesturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EC894C3243E0FF50065E5E7 /* NoahStifflerGesturesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC894D3243E0FF50065E5E7 /* Build configuration list for PBXNativeTarget "NoahStifflerGesturesUITests" */;
+			buildPhases = (
+				9EC894C0243E0FF50065E5E7 /* Sources */,
+				9EC894C1243E0FF50065E5E7 /* Frameworks */,
+				9EC894C2243E0FF50065E5E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EC894C6243E0FF50065E5E7 /* PBXTargetDependency */,
+			);
+			name = NoahStifflerGesturesUITests;
+			productName = NoahStifflerGesturesUITests;
+			productReference = 9EC894C4243E0FF50065E5E7 /* NoahStifflerGesturesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EC8949B243E0FF40065E5E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Noah Stiffler";
+				TargetAttributes = {
+					9EC894A2243E0FF40065E5E7 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					9EC894B8243E0FF50065E5E7 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 9EC894A2243E0FF40065E5E7;
+					};
+					9EC894C3243E0FF50065E5E7 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 9EC894A2243E0FF40065E5E7;
+					};
+				};
+			};
+			buildConfigurationList = 9EC8949E243E0FF40065E5E7 /* Build configuration list for PBXProject "NoahStifflerGestures" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EC8949A243E0FF40065E5E7;
+			productRefGroup = 9EC894A4243E0FF40065E5E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EC894A2243E0FF40065E5E7 /* NoahStifflerGestures */,
+				9EC894B8243E0FF50065E5E7 /* NoahStifflerGesturesTests */,
+				9EC894C3243E0FF50065E5E7 /* NoahStifflerGesturesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EC894A1243E0FF40065E5E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC894B3243E0FF50065E5E7 /* LaunchScreen.storyboard in Resources */,
+				9EC894B0243E0FF50065E5E7 /* Assets.xcassets in Resources */,
+				9EC894AE243E0FF40065E5E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC894B7243E0FF50065E5E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC894C2243E0FF50065E5E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EC8949F243E0FF40065E5E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC894AB243E0FF40065E5E7 /* ViewController.swift in Sources */,
+				9EC894A7243E0FF40065E5E7 /* AppDelegate.swift in Sources */,
+				9EC894A9243E0FF40065E5E7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC894B5243E0FF50065E5E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC894BE243E0FF50065E5E7 /* NoahStifflerGesturesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC894C0243E0FF50065E5E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC894C9243E0FF50065E5E7 /* NoahStifflerGesturesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EC894BB243E0FF50065E5E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EC894A2243E0FF40065E5E7 /* NoahStifflerGestures */;
+			targetProxy = 9EC894BA243E0FF50065E5E7 /* PBXContainerItemProxy */;
+		};
+		9EC894C6243E0FF50065E5E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EC894A2243E0FF40065E5E7 /* NoahStifflerGestures */;
+			targetProxy = 9EC894C5243E0FF50065E5E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EC894AC243E0FF40065E5E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EC894AD243E0FF40065E5E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EC894B1243E0FF50065E5E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EC894B2243E0FF50065E5E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EC894CB243E0FF50065E5E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EC894CC243E0FF50065E5E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EC894CE243E0FF50065E5E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZ6CCG34TD;
+				INFOPLIST_FILE = NoahStifflerGestures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xcodewack.NoahStifflerGestures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EC894CF243E0FF50065E5E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZ6CCG34TD;
+				INFOPLIST_FILE = NoahStifflerGestures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xcodewack.NoahStifflerGestures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9EC894D1243E0FF50065E5E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZ6CCG34TD;
+				INFOPLIST_FILE = NoahStifflerGesturesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xcodewack.NoahStifflerGesturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoahStifflerGestures.app/NoahStifflerGestures";
+			};
+			name = Debug;
+		};
+		9EC894D2243E0FF50065E5E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZ6CCG34TD;
+				INFOPLIST_FILE = NoahStifflerGesturesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xcodewack.NoahStifflerGesturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoahStifflerGestures.app/NoahStifflerGestures";
+			};
+			name = Release;
+		};
+		9EC894D4243E0FF50065E5E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZ6CCG34TD;
+				INFOPLIST_FILE = NoahStifflerGesturesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xcodewack.NoahStifflerGesturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NoahStifflerGestures;
+			};
+			name = Debug;
+		};
+		9EC894D5243E0FF50065E5E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZ6CCG34TD;
+				INFOPLIST_FILE = NoahStifflerGesturesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xcodewack.NoahStifflerGesturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NoahStifflerGestures;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EC8949E243E0FF40065E5E7 /* Build configuration list for PBXProject "NoahStifflerGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC894CB243E0FF50065E5E7 /* Debug */,
+				9EC894CC243E0FF50065E5E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EC894CD243E0FF50065E5E7 /* Build configuration list for PBXNativeTarget "NoahStifflerGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC894CE243E0FF50065E5E7 /* Debug */,
+				9EC894CF243E0FF50065E5E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EC894D0243E0FF50065E5E7 /* Build configuration list for PBXNativeTarget "NoahStifflerGesturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC894D1243E0FF50065E5E7 /* Debug */,
+				9EC894D2243E0FF50065E5E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EC894D3243E0FF50065E5E7 /* Build configuration list for PBXNativeTarget "NoahStifflerGesturesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC894D4243E0FF50065E5E7 /* Debug */,
+				9EC894D5243E0FF50065E5E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EC8949B243E0FF40065E5E7 /* Project object */;
+}
