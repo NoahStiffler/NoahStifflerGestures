@@ -15,6 +15,7 @@
 		9EC894B3243E0FF50065E5E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC894B1243E0FF50065E5E7 /* LaunchScreen.storyboard */; };
 		9EC894BE243E0FF50065E5E7 /* NoahStifflerGesturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC894BD243E0FF50065E5E7 /* NoahStifflerGesturesTests.swift */; };
 		9EC894C9243E0FF50065E5E7 /* NoahStifflerGesturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC894C8243E0FF50065E5E7 /* NoahStifflerGesturesUITests.swift */; };
+		9EC894D92441422B0065E5E7 /* eating.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EC894D82441422B0065E5E7 /* eating.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9EC894C4243E0FF50065E5E7 /* NoahStifflerGesturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoahStifflerGesturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC894C8243E0FF50065E5E7 /* NoahStifflerGesturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoahStifflerGesturesUITests.swift; sourceTree = "<group>"; };
 		9EC894CA243E0FF50065E5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC894D82441422B0065E5E7 /* eating.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eating.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				9EC894BC243E0FF50065E5E7 /* NoahStifflerGesturesTests */,
 				9EC894C7243E0FF50065E5E7 /* NoahStifflerGesturesUITests */,
 				9EC894A4243E0FF40065E5E7 /* Products */,
+				9EC894D82441422B0065E5E7 /* eating.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC894D92441422B0065E5E7 /* eating.mp3 in Resources */,
 				9EC894B3243E0FF50065E5E7 /* LaunchScreen.storyboard in Resources */,
 				9EC894B0243E0FF50065E5E7 /* Assets.xcassets in Resources */,
 				9EC894AE243E0FF40065E5E7 /* Main.storyboard in Resources */,
